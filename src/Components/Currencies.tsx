@@ -37,7 +37,7 @@ const Currencies = () => {
         {currencyArray.map((curr) => (
           <button
             className={`big-button-add   ${curr.isSelected && 'selected-button'} `}
-            key={Math.random()}
+            key={Math.random()}// mosh labak id?
             onClick={() => {
               toggleSelected(curr);
             }}
